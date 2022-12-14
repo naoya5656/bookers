@@ -1,0 +1,120 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 33px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  line-height: 18px;
+  color: #333;
+}
+
+.t-head {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 7px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.show {
+  margin: 33px;
+}
+
+.edit {
+  margin-bottom: 10px
+}
+
+.top {
+  margin: 33px;
+}
+
+.error {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  }
+  
+.error-text {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+
+.error-box {
+  margin: 33px;
+  font-size: 13px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  line-height: 18px;
+}
+
+.edit-title {
+  margin: 17.42px 0;
+}
+
+.index-title {
+  margin: 17.42px 0;
+  }
+  
+ul {
+  margin: 33px;
+}
+
+.new {
+  margin: 16.185px 0 
+}
+
+.flash {
+  margin: 33px
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+th {
+  padding: 1px 1px 5px;
+}
+
+a {
+  color: #666666;
+}
+
+input {
+  padding: 1px ;
+}
